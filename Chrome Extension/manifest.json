@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "YSummarize",
+    "description": "An extension to provide a summarized transcript of a YouTube Subtitle eligible Video.",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "page_action": {
+    "default_popup": "popup.html"}
+    }
