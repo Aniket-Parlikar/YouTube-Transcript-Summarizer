@@ -1,0 +1,1 @@
+document.getElementById("myBtn").addEventListener("click",function(){ myFunction(p1,p2);}); 

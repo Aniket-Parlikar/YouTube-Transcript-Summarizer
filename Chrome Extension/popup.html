@@ -1,10 +1,18 @@
 <html>
     <head>Youtube Transcript Summarizer</head>
+    <link rel=¨stylesheet¨ type=¨text/css¨ href=¨popup.css¨>
+    <script src="popup.js"></script>
     <body>
-        <link rel=¨stylesheet¨ type=¨text/css¨ href=¨popup.css¨>
-        <script src="popup.js"></script>
-        <button>Summarize</button>
-        <div>The summarized video Transcript is :</div>
+        <button id="myBtn" type="button" onclick="">Summarize</button>
+        <script>
+            document.getElementById("myBtn").addEventListener("click", anonymous);
+            
+            function displaySummary() {
+              document.getElementById("result").innerHTML = "Summary"
+            }
+            </script>
+        <div>The summarized transcript is</div>    
+        <div id="result"></div>
         <div>{{transcript}}</div>
     </body>
 </html>
